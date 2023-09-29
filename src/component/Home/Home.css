@@ -1,0 +1,83 @@
+.mainContainer{
+    height: 100vh;
+    background-color: #219C90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    /* margin-top: 100px;
+    margin-left: 300px; */
+    border-radius: 30px;
+    background-color: #FFFF;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap:5px;
+    align-items: center; 
+   
+}
+.subTitle-Text{
+    color:#219C90;
+    font-weight: 700;
+    gap: 0px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.subTitle-Text1{
+   font-weight: 500;
+    color: grey ;
+    font-size: 20px;
+}
+.inputContainer{
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 82%;
+  height: 100px;
+  align-items: center;
+  margin-top: 30px;
+}
+.inputField{
+    background-color: #d9d9d9;
+  color: black;
+  border-radius: 5px;
+  width: 85%;
+  padding-left: 3px;
+ font-size: 16px;
+ min-height: 30px; 
+  border: none;
+}
+.submitButton{
+    background-color: #219c90;
+    color: white;
+    border-radius: 5px;
+    width: 85%;
+    min-height: 30px;
+    font-size: 16px;
+    border: none;
+}
+.genderText {
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .highlightText {
+    color: #219c90;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  @media (max-width: 768px) {
+    .mainContainer {
+        background-color:white;
+       align-items: flex-start;
+    }
+    .container{
+        border-radius: 0;
+        
+    }
+  }
+  
