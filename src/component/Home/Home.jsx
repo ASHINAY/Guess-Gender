@@ -42,7 +42,7 @@ function Home() {
           </button>
           {
           gender === null ? 
-            <span>Unable to detect Gender</span>
+            <span className="genderText">Unable to detect Gender</span>
             
            : gender !== ""? 
             <span className="genderText">

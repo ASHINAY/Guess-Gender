@@ -7,7 +7,7 @@
 }
 .container{
     width: 400px;
-    height: 300px;
+    height: 250px;
     /* margin-top: 100px;
     margin-left: 300px; */
     border-radius: 30px;
@@ -15,14 +15,14 @@
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
-    gap:5px;
+    
     align-items: center; 
    
 }
 .subTitle-Text{
     color:#219C90;
     font-weight: 700;
-    gap: 0px;
+   
     margin-top: 20px;
     font-size: 30px;
 }
@@ -34,28 +34,28 @@
 .inputContainer{
     display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   width: 82%;
   height: 100px;
   align-items: center;
   margin-top: 30px;
 }
 .inputField{
-    background-color: #d9d9d9;
+    background-color: White;
   color: black;
   border-radius: 5px;
   width: 85%;
   padding-left: 3px;
  font-size: 16px;
  min-height: 30px; 
-  border: none;
+  border: 1px solid grey;
 }
 .submitButton{
     background-color: #219c90;
     color: white;
     border-radius: 5px;
-    width: 85%;
-    min-height: 30px;
+    width: 88%; 
+    min-height: 33px;
     font-size: 16px;
     border: none;
 }
@@ -67,7 +67,7 @@
   .highlightText {
     color: #219c90;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   @media (max-width: 768px) {
